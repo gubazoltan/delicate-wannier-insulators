@@ -1,5 +1,8 @@
 # Delicate Wannier insulators
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17456830.svg)](https://doi.org/10.5281/zenodo.17456830) 
+[![arXiv](https://img.shields.io/badge/arXiv-2506.05179-b31b1b.svg)](https://arxiv.org/abs/2506.05179)
+
 Code and data accompanying the paper:
 
 - Delicate Wannier insulators — Zoltán Guba, Aris Alexandradinata, Tomáš Bzdušek
@@ -208,21 +211,11 @@ python3 code/utils/run_all_notebooks.py --root code --save-figures && \
 python3 code/utils/clear_notebook_outputs.py --root code
 ```
 
-## Citation
+## How to cite
 
-Please cite the paper if you use this repository:
+- Software: Please cite the archived software via the Zenodo concept DOI: https://doi.org/10.5281/zenodo.17456830 (click the DOI badge above for BibTeX/APA/other formats).
 
-```bibtex
-@misc{guba2025delicatewannierinsulators,
-	title        = {Delicate Wannier insulators},
-	author       = {Zolt\'{a}n Guba and Aris Alexandradinata and Tom\'{a}\v{s} Bzdu\v{s}ek},
-	year         = {2025},
-	eprint       = {2506.05179},
-	archivePrefix= {arXiv},
-	primaryClass = {cond-mat.mes-hall},
-	url          = {https://arxiv.org/abs/2506.05179}
-}
-```
+- Paper: If you use this repository for results or figures from the manuscript, please also cite the paper. See the arXiv record for citation formats (use arXiv’s BibTeX export to preserve accents): https://arxiv.org/abs/2506.05179
 
 ## License
 

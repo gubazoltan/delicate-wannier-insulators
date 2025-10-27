@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it."
+
+# Software citation (this repository)
+title: "Delicate Wannier insulators"
+type: software
+authors:
+  - family-names: Guba
+    given-names: Zoltán
+  - family-names: Alexandradinata
+    given-names: Aris
+  - family-names: Bzdušek
+    given-names: Tomáš
+license: MIT
+doi: 10.5281/zenodo.17456830
+repository-code: https://github.com/gubazoltan/delicate-wannier-insulators
+url: https://doi.org/10.5281/zenodo.17456830
+
+# Preferred citation for the accompanying paper
+preferred-citation:
+  type: article
+  title: "Delicate Wannier insulators"
+  authors:
+    - family-names: Guba
+      given-names: Zoltán
+    - family-names: Alexandradinata
+      given-names: Aris
+    - family-names: Bzdušek
+      given-names: Tomáš
+  year: 2025
+  doi: 10.48550/arXiv.2506.05179
+  journal: arXiv
+  url: https://arxiv.org/abs/2506.05179
