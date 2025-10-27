@@ -1,0 +1,23 @@
+### Cache-only ignores
+
+# Python bytecode cache
+__pycache__/
+*.py[cod]
+
+# Tool/test caches
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+.venv
+
+# Generated figures (autosave exports)
+figures/
+figures_pub/
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
