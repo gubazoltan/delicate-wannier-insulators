@@ -1,7 +1,6 @@
 # Delicate Wannier insulators
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17456830.svg)](https://doi.org/10.5281/zenodo.17456830) 
-[![arXiv](https://img.shields.io/badge/arXiv-2506.05179-b31b1b.svg)](https://arxiv.org/abs/2506.05179)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17456830-blue?logo=zenodo)](https://doi.org/10.5281/zenodo.17456830) [![arXiv](https://img.shields.io/badge/arXiv-2506.05179-b31b1b.svg)](https://arxiv.org/abs/2506.05179)
 
 Code and data accompanying the paper:
 
