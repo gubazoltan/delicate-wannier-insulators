@@ -21,13 +21,16 @@ If you use this code or data, please cite the paper (see Citation below).
 
 ```bash
 # Create and activate environment (conda)
-conda create -n dwi python=3.10 -y && conda activate dwi
+conda create -n dwi python=3.10 -y
+conda activate dwi
 
 # Or use venv (Linux/macOS)
-python3 -m venv .venv && source .venv/bin/activate
+python3 -m venv .venv
+source .venv/bin/activate
 
 # Or use venv (Windows PowerShell)
-python -m venv .venv && .\.venv\Scripts\Activate.ps1
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
 
 # Install packages
 pip install numpy scipy sympy matplotlib jupyterlab ipykernel
@@ -66,7 +69,10 @@ cd code && jupyter lab
 For non-interactive execution:
 
 ```bash
-export MPLBACKEND=Agg  # Windows: $env:MPLBACKEND = 'Agg'
+# Set non-interactive backend (Linux/macOS)
+export MPLBACKEND=Agg
+
+# Windows PowerShell: $env:MPLBACKEND = 'Agg'
 
 # Run a single notebook
 python3 code/utils/execute_notebook.py code/rtp/projected_position_spectrum.ipynb
